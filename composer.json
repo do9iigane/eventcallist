@@ -1,0 +1,16 @@
+{
+  "name": "test/sandbox",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "do9iigane",
+      "email": "dokumegane@interestic.com"
+    }
+  ],
+  "require": {
+    "google/apiclient": "~1.1",
+    "twig/twig": "~1.0"
+  }
+}
