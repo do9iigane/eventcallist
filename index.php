@@ -5,7 +5,7 @@
  * Date: 2015/10/11
  * Time: 11:14
  */
-require_once '../vendor/autoload.php';
+require_once './vendor/autoload.php';
 
 new wiki_calender();
 
