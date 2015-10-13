@@ -60,7 +60,7 @@ class __TwigTemplate_148348d9c8c15db76e722c9c0d6d54c70eb3c57ac51bc870cf76ff32809
 <body>
 
 <div class=\"container\" id=\"content\" tabindex=\"-1\">
-    <span class=\"glyphicon glyphicon-heart\" aria-hidden=\"true\"></span>むっちゃん、クッキーへ。
+    <span class=\"glyphicon glyphicon-heart\" aria-hidden=\"true\"></span>ナレプラチームのみなさんへ
     <h1>年間記念日カレンダー</h1>
     <h3>各記念日を押下すると、Googleカレンダーに予定をコピーできます。<br>
         <small>※Googleカレンダーの「継続的な予定」はシステムでは制御出来ない為、予定を保存する際、任意で選択してください。</small>
@@ -265,7 +265,7 @@ class __TwigTemplate_148348d9c8c15db76e722c9c0d6d54c70eb3c57ac51bc870cf76ff32809
 /* <body>*/
 /* */
 /* <div class="container" id="content" tabindex="-1">*/
-/*     <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>むっちゃん、クッキーへ。*/
+/*     <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>ナレプラチームのみなさんへ*/
 /*     <h1>年間記念日カレンダー</h1>*/
 /*     <h3>各記念日を押下すると、Googleカレンダーに予定をコピーできます。<br>*/
 /*         <small>※Googleカレンダーの「継続的な予定」はシステムでは制御出来ない為、予定を保存する際、任意で選択してください。</small>*/

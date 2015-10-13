@@ -44,13 +44,18 @@ class wiki_calender
                 preg_match('/(.*)月(.*)日/',$day_title,$match2);
 
                 if(!empty($match2[1])){
+                    $now_year = date('Y');
+                    $today = strtotime(date('Y/m/d'));
+                    $holiday = strtotime("{$now_year}/{$match2[1]}/{$match2[2]}");
+
+                    $year = $holiday <= $today ? $now_year+1 : $now_year;
                     $timerange =
-                        date('Y').
-                        @str_pad($match2[1],2,0,STR_PAD_LEFT).
-                        @str_pad($match2[2],2,0,STR_PAD_LEFT)."/".
-                        date('Y').
-                        @str_pad($match2[1],2,0,STR_PAD_LEFT).
-                        @str_pad((int) $match2[2]+1,2,0,STR_PAD_LEFT);
+                        $year.
+                        str_pad($match2[1],2,0,STR_PAD_LEFT).
+                        str_pad($match2[2],2,0,STR_PAD_LEFT)."/".
+                        $year.
+                        str_pad($match2[1],2,0,STR_PAD_LEFT).
+                        str_pad((int) $match2[2]+1,2,0,STR_PAD_LEFT);
 
                     $result[$match2[1]][$day_title] = array(
                         'title'=>$day_content,
