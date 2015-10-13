@@ -41,8 +41,22 @@
 </head>
 <body>
 
+<form method="POST" action="http://www.kinenbi.gr.jp/" name="KS" _lpchecked="1">
+    <input type="hidden" name="MD" value="2">
+    <div class="whatday_keyform">
+        <input type="text" name="K" size="15" maxlength="20" value="国">
+    </div>
+    <br clear="left">
+    <div class="whatday_keyradio">
+        <input type="radio" name="SK" value="1"> いずれかを含む　
+        <input type="radio" name="SK" value="0" checked=""> すべてを含む
+    </div>
+    <div class="whatday_search">
+        <input type="submit">
+    </div>
+</form>
+
 <div class="container" id="content" tabindex="-1">
-    <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>ナレプラチームのみなさんへ
     <h1>年間記念日カレンダー</h1>
     <h3>各記念日を押下すると、Googleカレンダーに予定をコピーできます。<br>
         <small>※Googleカレンダーの「継続的な予定」はシステムでは制御出来ない為、予定を保存する際、任意で選択してください。</small>
